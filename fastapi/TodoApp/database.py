@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base # tämä luo perusluokan
 
 #Tämä määrittää tietokannan osoitteen.
 #Tässä käytetään MySQL tietokantaa.
-SQLALCHEMY_DATABASE_URL = 'mysql+pymysql://root:test123@127.0.0.1:3306/prompteddatabase'
+SQLALCHEMY_DATABASE_URL = ''
 #Tässä määritellään SQLAlchemy tietokannan moottori.
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL) 
