@@ -17,7 +17,7 @@ router = APIRouter(
 )
 # Tämä määrittelee reitit, jotka liittyvät käyttäjän todennukseen ja JWT-tunnusten luomiseen.
 
-SECRET_KEY = 'a49b24820ae3658dfea66bce4cadd2b520d92b64c0322dce4318d7c81b4cf18e'
+SECRET_KEY = ''
 ALGORITHM = 'HS256'
 # Tämä on salainen avain, jota käytetään JWT-tunnusten allekirjoittamiseen. 
 # openssl rand -hex 32 komennolla voi luoda uuden salaisen avaimen.
